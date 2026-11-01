@@ -1,0 +1,16 @@
+{
+  "student_name": "Paniz Azarnia",
+  "student_id": "40435097",
+  "token_pattern": "(?u)\\b\\w\\w+\\b",
+  "lowercase": true,
+  "stopword_removal": true,
+  "stemming": true,
+  "lexical_method": "tfidf_cosine",
+  "semantic_method": "wordnet_rerank",
+  "topk": 100,
+  "random_seed": 42,
+  "score_weights": {
+    "lexical": 0.8,
+    "semantic": 0.19999999999999996
+  }
+}
